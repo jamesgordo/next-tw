@@ -10,7 +10,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="h-screen py-16 flex flex-col justify-center items-center">
+      <main className="sm:h-screen py-16 flex flex-col sm:justify-center items-center">
         <h1 className="m-0 leading-tight text-[4rem] text-center">
           Welcome to{' '}
           <a href="https://nextjs.org" className="text-[#0070f3] hover:underline">
@@ -23,7 +23,7 @@ export default function Home() {
           <code className="bg-[#fafafa] p-3 text-sm rounded-md">pages/index.js</code>
         </p>
 
-        <div className="grid grid-cols-2 justify-center items-center flex-wrap max-w-[800px]">
+        <div className="grid grid-cols-1 sm:grid-cols-2 justify-center items-center flex-wrap max-w-[800px]">
           <a
             href="https://nextjs.org/docs"
             className="m-4 p-6 border rounded-xl max-w-[300px] transition-all ease-in group hover:text-[#0070f3] hover:border-[#0070f3]"
